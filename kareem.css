@@ -1,6 +1,19 @@
 body {
   background-color: black;
   background-image: url("Sources/Images/programming-wallpaper-1920x1080.jpg");
+
+}
+
+h1 {
+  text-align: center;
+  font-family: 'Raleway', Helvetica, Arial, sans-serif;
+  color: white;
+  font-size: 50px;
+        -webkit-animation: fadei 510s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 2s; /* Firefox < 16 */
+        -ms-animation: fadein 2s; /* Internet Explorer */
+         -o-animation: fadein 2s; /* Opera < 12.1 */
+            animation: fadein 4s;
 }
 
 .text-center {
